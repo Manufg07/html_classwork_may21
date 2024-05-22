@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="manu_details.js"></script>
+</head>
+<body>
+    Enter First name:
+    <input type="text" id="fname" onchange="Display_text()"><br><br>
+    Enter Last name:
+    <input type="text" id="lname" onchange="Display_text()"><br><br>
+    Enter Email:
+    <input type="text" id="email" onchange="Display_text()"><br><br>
+    Enter Mobile Number:
+    <input type="text" id="mobile" onchange="Display_text()"><br><br>
+    Dob:
+    <input type="date" id="dob" onchange="Display_text()"><br><br>
+    <button onclick="Display_name()">Click here</button>
+    <br><br>Details:
+    <p id="disp"></p>
+    <script>
+        let values=[];
+    </script>
+</body>
+</html>

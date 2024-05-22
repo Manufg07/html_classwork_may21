@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate|Dapp</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body style="background-color: white">
+    <div style="background-color:#f2f2f2; width: 50%; margin: auto;margin-top: 10%;">
+       <h1 style="text-align: center;">Kerala Blockchain Academy</h1>
+       <img src="certi.jpeg" alt="" style="height: 250px;width: 250px; text-align: center;margin-left: 180px;">
+       <!-- <p style="text-align: center;">This certify that Mr.Manu Completed Blockchain Architect Program successfully</p> -->
+       <p style="text-align: center;" id="c"></p>
+       <p style="text-align: center;" id="id"></p>
+       <p style="text-align: center;" id="n"></p>
+       <p style="text-align: center;"id="g"></p>
+       <p style="text-align: center;" id="d"></p>
+       <script>
+           document.getElementById("c").innerHTML="Course:"+localStorage.getItem("course");
+           document.getElementById("id").innerHTML="Certificate ID:"+localStorage.getItem("certi_id");
+           document.getElementById("n").innerHTML="Name:"+localStorage.getItem("name");
+           document.getElementById("g").innerHTML="Grade:"+localStorage.getItem("grade");
+           document.getElementById("d").innerHTML="Date:"+localStorage.getItem("date");
+       </script>
+    </div>
+
+</html>

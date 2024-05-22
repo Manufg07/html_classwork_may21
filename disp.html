@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certi</title>
+</head>
+<body>
+    <p id="c"></p>
+    <p id="id"></p>
+    <p id="n"></p>
+    <p id="g"></p>
+    <p id="d"></p>
+    <script>
+        document.getElementById("c").innerHTML="Course:"+localStorage.getItem("course");
+        document.getElementById("id").innerHTML="Certificate ID:"+localStorage.getItem("certi_id");
+        document.getElementById("n").innerHTML="Name:"+localStorage.getItem("name");
+        document.getElementById("g").innerHTML="Grade:"+localStorage.getItem("grade");
+        document.getElementById("d").innerHTML="Date:"+localStorage.getItem("date");
+    </script>
+</body>
+</html>

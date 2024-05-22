@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate|Dapp</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="manu_issue.js"></script>
+</head>
+<body>
+        <ul>
+            <li><a href="issue_certificate.html" style="background-color: aqua;">Issue Certificate</a></li>
+            <li><a href="Home.html">Home</a></li>
+
+        </ul>
+    <h1>Certificate Dapp</h1>
+    <p></p>
+    <div>
+        <h2>Issue New Certificate</h2>
+        <form action="" id="frm" >
+            <label for="Course">Select Course*</label>
+            <select name="" id="course">
+                <option value="">Select</option>
+                <option value="Certified Blockchain Architect">Certified Blockchain Architect</option>
+                <option value="Post graduate Diploma in Cyber Security">Post graduate Diploma in Cyber Security</option>
+                <option value="PCB Design">PCB Design</option>
+            </select>
+            <label for="certification id">Certificate ID*</label>
+            <input type="text" id="certi_id" placeholder="Certificate ID">
+            <label for="name">Candidate Name*</label>
+            <input type="text" id="name" placeholder="Name">
+            <label for="Grade">Select Grade*</label>
+            <select name="" id="grade">
+                <option value="">Select</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+            </select>
+            <label for="Issue Date">Issue Date*</label>
+            <input type="date" id="date"> 
+            <br><br><button onclick=" disp_certi()" style="background-color: aqua; font-size:medium; font-family: 'Times New Roman', Times, serif; border-radius: 3px;height: 29px;width: 140px;"><a href="certificate.html">Issue certificate</a></button>
+        </form>
+    </div>
+
+</html>
